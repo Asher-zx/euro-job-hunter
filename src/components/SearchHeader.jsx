@@ -17,7 +17,6 @@ const SearchHeader = ({
 }) => {
   return (
     <header className="search-header">
-            {/* 背景视频层 */}
             <video
         className="search-header-bg-video"
         autoPlay
