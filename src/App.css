@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color: #f8fafc;
+  color: #1e293b; */
+  line-height: 1.6;
+}
+
+.app {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+.jobs-container {
+  width: 100%;
+}
+
+.jobs-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.no-results {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.no-results-icon {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  opacity: 0.6;
+}
+
+.no-results h3 {
+  font-size: 1.5rem;
+  color: #1e293b;
+  margin: 0 0 0.5rem;
+  font-weight: 600;
+}
+
+.no-results p {
+  color: #64748b;
+  font-size: 1rem;
+  margin: 0;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    padding: 0 1rem 2rem;
+  }
+  
+  .jobs-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .no-results {
+    padding: 3rem 1.5rem;
+  }
+  
+  .no-results-icon {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs-grid {
+    grid-template-columns: 1fr;
+  }
+}
