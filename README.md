@@ -1,12 +1,84 @@
-# React + Vite
+# Euro Job Hunter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Based on my experience, its sor hard to find a job in Sweden in IT field, even an internship, wanna break the wall and do something, so I developed this page, still need to iterate...
 
-Currently, two official plugins are available:
+Euro Job Hunter is a web application built with React and Vite that helps users search and discover job opportunities across Europe. The project leverages modern frontend tooling for fast development and a smooth user experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Fast and responsive UI built with React
+- Hot Module Replacement (HMR) via Vite for efficient development
+- ESLint integration for code quality
+- Easy job search and filtering (customize as per your app's features)
+- Modular and maintainable codebase
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/yourusername/euro-job-hunter.git
+cd euro-job-hunter
+npm install
+# or
+yarn install
+```
+
+### Running the Development Server
+
+Start the app in development mode:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+The app will be available at [http://localhost:5173](http://localhost:5173) (default Vite port).
+
+### Building for Production
+
+To build the app for production:
+
+```bash
+npm run build
+# or
+yarn build
+```
+
+### Linting
+
+To check for lint errors:
+
+```bash
+npm run lint
+# or
+yarn lint
+```
+
+## Project Structure
+
+- `src/` - Main source code (components, pages, etc.)
+- `public/` - Static assets
+- `vite.config.js` - Vite configuration
+- `.eslintrc` - ESLint configuration
+
+## Contributing
+
+Contributions are welcome! Please open issues or submit pull requests for improvements or bug fixes.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+Built with ❤️ using React + Vite.
